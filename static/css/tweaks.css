@@ -165,6 +165,7 @@ img.qrcode {
     min-height: 3.25rem;
     line-height: 1;
     transition: background-color 150ms ease, color 150ms ease;
+    margin-left: 0.5rem;
 }
 
 .list-social-icons .btn-cv:hover,
