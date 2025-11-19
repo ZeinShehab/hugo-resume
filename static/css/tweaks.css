@@ -146,6 +146,34 @@ div.skills-heading{
         display: inline;
     }
 
-    img.qrcode {
+img.qrcode {
       max-width: 300px !important;
     }
+
+.list-social-icons .btn-cv {
+    background-color: #495057 !important;
+    border: 0 !important;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.45rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.65rem 1.4rem;
+    min-height: 3.25rem;
+    line-height: 1;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
+.list-social-icons .btn-cv:hover,
+.list-social-icons .btn-cv:focus {
+    background-color: #2C446F !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.list-social-icons .btn-cv i {
+    font-size: 1.1rem;
+}
